@@ -23,7 +23,6 @@ def count_words():
         else:
             result[word] = 1
 
-    print(result)
     return result
 
-count_words()
+print(count_words())
